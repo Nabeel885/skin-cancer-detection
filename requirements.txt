@@ -1,6 +1,7 @@
+# requirements.txt
 streamlit>=1.25.0
 ultralytics>=8.0.146
-opencv-python
+opencv-python-headless==4.8.0.76  # ✅ safer for cloud environments
 Pillow
 numpy
 torch>=2.0.0
