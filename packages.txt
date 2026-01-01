@@ -1,1 +1,4 @@
-python3.10
+libgl1
+libglib2.0-0
+
+
