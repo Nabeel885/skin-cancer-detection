@@ -115,7 +115,7 @@ if uploaded_file is not None:
                 st.markdown(f'<div class="label-green">{label}</div>', unsafe_allow_html=True)
 
         with col2:
-            st.image(save_paths[0], caption="✅ Prediction Result", use_column_width=True)
+            st.image(save_paths[0], caption="✅ Prediction Result", use_container_width=True)
 
     else:
         st.warning("Prediction image not found.")
